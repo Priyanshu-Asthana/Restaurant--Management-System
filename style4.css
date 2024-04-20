@@ -1,0 +1,252 @@
+*
+{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    max-height: 50px;
+    height: 200px;
+    width: 100px;
+    margin-left: -90px;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-left: auto;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    width: 260px;
+
+}
+
+.notification-icon img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.logout button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.body {
+    padding: 20px;
+}
+
+.date-time {
+    margin-bottom: 20px;
+}
+/*order details*/
+
+.order-details,
+.table-reservation {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+     
+    }
+
+.order-details h2,
+.table-reservation h2 {
+    margin-top: 0;
+}
+
+
+.order-deta {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .order-deta h3 {
+    color: #2D4D78;
+  }
+  
+  .order-deta h4 {
+    color: #2D4D78;
+    margin-top: 0;
+  }
+  
+  .order-deta p {
+    margin: 5px 0;
+  }
+  
+  .address-section {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  #acc
+  {
+    height: 40px;
+    width: 90px;
+    color: black;
+    background-color: rgb(22, 207, 22);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #dec
+  {
+    height: 40px;
+    width: 90px;
+    color: black;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+/* booking status*/
+
+  .table-container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #2D4D78;
+    color: #ffffff;
+  }
+  
+  tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+
+  /*active staff*/
+
+  .staff-table {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #2D4D78;
+    color: #ffffff;
+  }
+  
+  tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+
+  /*customsable menu section*/
+
+  .menu {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .menu-section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #2D4D78;
+  }
+  
+  .dish {
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    margin: 5px 0;
+  }
+  
+  .status {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .available {
+    background-color: #66BB6A;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .sold-out {
+    background-color: #EF5350;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  /*customer support*/
+  .customer-support {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .customer {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #2D4D78;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  h1
+  {
+    text-align: center;
+  }
